@@ -21,6 +21,14 @@ const myRoute:Routes=[
   component:AdminLoginComponent
 },
 {
+  path:"signup",
+  component:UserSignupComponent
+},
+{
+  path:"Userlogin",
+  component:UserLoginComponent
+},
+{
   path:"entry",
   component:BookEntryComponent
 },
