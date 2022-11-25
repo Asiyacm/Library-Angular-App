@@ -5,136 +5,17 @@
             <div class="row g-3">
 
 
-            <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
+            <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3" *ngFor="let i of books">
                   <div class="card">
-                  <img height="200 px" src="https://images-eu.ssl-images-amazon.com/images/I/41bxJpP3H9L._AC_SX184_.jpg" class="card-img-top" alt="...">
+                  <img height="200 px" src="{{i.image}}" class="card-img-top" alt="...">
                   <div class="card-body">
-                  <h5 class="card-title">Daivathinte Charanmar</h5>
-                  <p class="card-text">Author:Joseph Annamkutty Jose</p>
-                  <p class="card-text">Language: Malayalam</p>
-                  <p class="card-text">Price: 130</p>
+                  <h5 class="card-title">{{i.title}}</h5>
+                  <p class="card-text">{{i.author}}</p>
+                  <p class="card-text">{{i.language}}</p>
+                  <p class="card-text">{{i.price}}</p>
              </div>
         </div>  
     </div>
-
-    <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
-        <div class="card">
-        <img height="200 px" src="https://m.media-amazon.com/images/I/61R-HtwVuYL._SX322_BO1,204,203,200_.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-        <h5 class="card-title">When I Am With You</h5>
-        <p class="card-text">Author: Durjoy Datta</p>
-        <p class="card-text">Language: English</p>
-        <p class="card-text">Price:</p>
-   </div>
-</div>  
-</div>
-
-
-<div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
-<div class="card">
-<img height="200 px" src="https://m.media-amazon.com/images/I/4180omRGrSL._SX198_BO1,204,203,200_QL40_FMwebp_.jpg" class="card-img-top" alt="...">
-<div class="card-body">
-    <h5 class="card-title">You Can</h5>
-    <p class="card-text">Author: George Matthew Adams</p>
-    <p class="card-text">Language: English</p>
-    <p class="card-text">Price: 200</p>
-</div>
-</div>  
-</div>
-
-
-<div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
-<div class="card">
-<img height="200 px" src="https://m.media-amazon.com/images/I/412ML1Yah7L._SY264_BO1,204,203,200_QL40_FMwebp_.jpg" class="card-img-top" alt="...">
-<div class="card-body">
-    <h5 class="card-title">12 Rules for Life</h5>
-<p class="card-text">Author: Jordan B. Peterson</p>
-<p class="card-text">Language: English</p>
-<p class="card-text">Price: 383</p>
-</div>
-</div>  
-</div>
-
-<div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
-<div class="card">
-<img height="200 px" src="https://m.media-amazon.com/images/I/41cldPX8BxL._SX198_BO1,204,203,200_QL40_FMwebp_.jpg" class="card-img-top" alt="...">
-<div class="card-body">
-    <h5 class="card-title">The Diary of a Young Girl </h5>
-    <p class="card-text">Author: Anne Frank</p>
-    <p class="card-text">Language: Hindi</p>
-    <p class="card-text">Price: 540</p>
-</div>
-</div>  
-</div>
-
-
-
-<div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
-<div class="card">
-<img height="200 px" src="https://m.media-amazon.com/images/I/41tm1PWX2fL._SX319_BO1,204,203,200_.jpg" class="card-img-top" alt="...">
-<div class="card-body">
-    <h5 class="card-title">Alchemist</h5>
-<p class="card-text">Author: Paulo Coelho</p>
-<p class="card-text">Language: Malayalam</p>
-<p class="card-text">Price: 260</p>
-</div>
-</div>  
-</div>
-
-
-<div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
-<div class="card">
-<img height="200 px" src="https://m.media-amazon.com/images/I/418ky++EMuL._SX258_BO1,204,203,200_.jpg" class="card-img-top" alt="...">
-<div class="card-body">
-    <h5 class="card-title">One Day, Life Will Change</h5>
-<p class="card-text">Author: Saranya Umakanthan</p>
-<p class="card-text">Language: English</p>
-<p class="card-text">Price: 270</p>
-</div>
-</div>  
-</div>
-
-
-<div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
-<div class="card">
-<img height="200 px" src="https://m.media-amazon.com/images/I/51eoGjuylTL._SX318_BO1,204,203,200_.jpg" class="card-img-top" alt="...">
-<div class="card-body">
-    <h5 class="card-title">Sherlock Holmes Kathakal</h5>
-<p class="card-text">Author: Arthur Konan Doyle</p>
-<p class="card-text">Language: Malayalam</p>
-<p class="card-text">Price: 320</p>
-</div>
-</div>  
-</div>
-
-
-
-
-
-<div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
-<div class="card">
-<img height="200 px" src="https://m.media-amazon.com/images/I/41atjIKmxxS._SX460_BO1,204,203,200_.jpg" class="card-img-top" alt="...">
-<div class="card-body">
-    <h5 class="card-title">Autobiography of A Yogi</h5>
-<p class="card-text">Author: Paramahansa Yogananda </p>
-<p class="card-text">Language: Hindi</p>
-<p class="card-text">Price: 270</p>
-</div>
-</div>  
-</div>
-
-
-<div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
-<div class="card">
-<img height="200 px" src="https://m.media-amazon.com/images/I/51njDbGYRfL._SY264_BO1,204,203,200_QL40_FMwebp_.jpg" class="card-img-top" alt="...">
-<div class="card-body">
-    <h5 class="card-title">A Story Can Change Your Life</h5>
-<p class="card-text">Author: Ritu Singal </p>
-<p class="card-text">Language: English</p>
-<p class="card-text">Price: 399</p>
-</div>
-</div>  
-</div>
 
 
 </div>
