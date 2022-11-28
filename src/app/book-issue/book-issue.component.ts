@@ -7,4 +7,19 @@ import { Component } from '@angular/core';
 })
 export class BookIssueComponent {
 
+
+name=""
+title=""
+dateofissue=""
+membershipno=""
+
+
+bookIssue=()=>
+{
+  let issue:any=
+  {"name":this.name,"title":this.title,"dateofissue":this.dateofissue,"membershipno":this.membershipno}
+  console.log(issue)
+}
+
+
 }

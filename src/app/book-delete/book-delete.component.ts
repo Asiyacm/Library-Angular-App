@@ -7,4 +7,14 @@ import { Component } from '@angular/core';
 })
 export class BookDeleteComponent {
 
+  title=""
+
+
+  bookDelete=()=>
+{
+  let deleteBook:any=
+  {"title":this.title}
+  console.log(deleteBook)
+}
+
 }
