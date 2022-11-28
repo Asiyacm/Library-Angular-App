@@ -7,4 +7,16 @@ import { Component } from '@angular/core';
 })
 export class BookSearchComponent {
 
+
+   
+  title=""
+
+
+  bookSearch=()=>
+{
+  let searchBook:any=
+  {"title":this.title}
+  console.log(searchBook)
+}
+
 }
